@@ -1,0 +1,15 @@
+ 8:42:56 AM: N15 M501 *51
+ 8:42:56 AM: echo:Stored settings retreived:
+ 8:42:56 AM: echo:Steps per unit:
+ 8:42:56 AM: echo:  M92 X80.10 Y80.10 Z1560.60 E97.75
+ 8:42:56 AM: echo:Maximum feedrates (mm/s):
+ 8:42:56 AM: echo:  M203 X200.00 Y200.00 Z10.00 E100.00
+ 8:42:56 AM: echo:Maximum Acceleration (mm/s2):
+ 8:42:56 AM: echo:  M201 X3000 Y3000 Z100 E10000
+ 8:42:56 AM: echo:Acceleration: S=acceleration, T=retract acceleration
+ 8:42:56 AM: echo:  M204 S1500.00 T1500.00
+ 8:42:56 AM: echo:Advanced variables: S=Min feedrate (mm/s), T=Min travel feedrate (mm/s), B=minimum segment time (ms), X=maximum xY jerk (mm/s),  Z=maximum Z jerk (mm/s)
+ 8:42:56 AM: echo:  M205 S0.00 T0.00 B20000 X20.00 Z0.40 E5.00
+ 8:42:56 AM: echo:PID settings:
+ 8:42:56 AM: echo:   M301 P22.20 I1.08 D114.00
+
