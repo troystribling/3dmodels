@@ -1,0 +1,28 @@
+05-20-2015
+
+7:39:18 PM: echo:Hardcoded Default Settings Loaded
+7:39:18 PM: echo:Steps per unit:
+7:39:18 PM: echo:  M92 X63.36 Y63.36 Z2272.72 E590.00
+7:39:18 PM: echo:Maximum feedrates (mm/s):
+7:39:18 PM: echo:  M203 X100.00 Y100.00 Z2.00 E14.00
+7:39:18 PM: echo:Maximum Acceleration (mm/s2):
+7:39:18 PM: echo:  M201 X2000 Y2000 Z30 E10000
+7:39:18 PM: echo:Acceleration: S=acceleration, T=retract acceleration
+7:39:18 PM: echo:  M204 S3000.00 T3000.00
+7:39:18 PM: echo:Advanced variables: S=Min feedrate (mm/s), T=Min travel feedrate (mm/s), B=minimum segment time (ms), X=maximum XY jerk (mm/s),  Z=maximum Z jerk (mm/s),  E=maximum E jerk (mm/s)
+7:39:18 PM: echo:  M205 S0.00 T0.00 B20000 X20.00 Z0.40 E5.00
+7:39:18 PM: echo:Home offset (mm):
+7:39:18 PM: echo:  M206 X0.00 Y0.00 Z0.00
+7:39:18 PM: echo:PID settings:
+7:39:18 PM: echo:   M301 P22.20 I1.08 D114.00
+7:39:18 PM: echo:Min position (mm):
+7:39:18 PM: echo:  M210 X0.00 Y0.00 Z0.00
+7:39:18 PM: echo:Max position (mm):
+7:39:18 PM: echo:  M211 X205.00 Y205.00 Z200.00
+
+Xc = (63.36*50)/40.20 = 78.80, (78.80*50)/49.76 = 79.18
+Yc = (63.36*50)/40.20 = 78.80, (78.80*50)/49.73 = 79.22
+Zc = (2272.72*5)/7.95 = 1429.38, (1429.38*5)/4.84=1476.63
+Ec = (590.0*20)/43.18 = 273.27
+
+
